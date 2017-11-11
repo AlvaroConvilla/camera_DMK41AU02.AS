@@ -1,6 +1,5 @@
-# camera_DMK41AU02.AS Repository
-The Linux sources and UVC firmwares for DMK 41AU02.AS camera. 
-
+# Camera DMK41AU02.AS Repository 
+Código GNU/Linux y firmware UVC para la cámara 41AU02.AS
 
 ## Guía rápida de instalación del firmware de la cámara y ejecución de un programa de ejemplo en lenguaje C. 
 
@@ -8,12 +7,13 @@ Las instrucciones de este manual instala el software en el sistema de ficheros, 
 Si se quiere instalar el software en un directorio diferente (ej: /home/<your_name_user>), necesita cambiar la ruta en la instalación.
 
 ## Versión de Ubuntu donde se ha probado
+```
 $ lsb_release -a
 Distributor ID:	Ubuntu
 Description:	Ubuntu 16.04.3 LTS
 Release:	16.04
 Codename:	xenial
-
+```
 ## Instalar Dependencias
 
 ```
@@ -26,7 +26,7 @@ sudo apt-get install gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-plugins-base
 sudo apt-get install libgtk-3-dev libnotify-dev
 ```
 
-### Building tiscamera
+### Building
 
 Los siguientes comandos construirán e instalarán nuestro software con la configuración predeterminada. 
 
@@ -55,4 +55,4 @@ sudo service udev restart
 
 ### Para mayor información
 
-Visitar el Repositorio oficial con información más detallada: https://github.com/TheImagingSource/tiscamera
+Visita el Repositorio oficial con información más detallada: https://github.com/TheImagingSource/tiscamera
