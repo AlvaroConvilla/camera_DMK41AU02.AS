@@ -32,7 +32,7 @@ Los siguientes comandos construirán e instalarán nuestro software con la confi
 
 ```
 git clone --recursive https://github.com/AlvaroConvilla/camera_DMK41AU02.AS.git
-cd tiscamera
+cd camera_DMK41AU02.AS
 mkdir build
 cd build
 
