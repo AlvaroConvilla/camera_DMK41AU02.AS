@@ -31,7 +31,7 @@ sudo apt-get install libgtk-3-dev libnotify-dev
 Los siguientes comandos construirán e instalarán nuestro software con la configuración predeterminada. 
 
 ```
-git clone --recursive https://github.com/TheImagingSource/tiscamera.git
+git clone --recursive https://github.com/AlvaroConvilla/camera_DMK41AU02.AS.git
 cd tiscamera
 mkdir build
 cd build
@@ -50,8 +50,11 @@ sudo service udev restart
 ```
 
 ### Ejemplo de visualización de la cámara en lenguaje C.
-
-
+```
+cd examples/c
+make
+./properties
+```
 
 ### Para mayor información
 
