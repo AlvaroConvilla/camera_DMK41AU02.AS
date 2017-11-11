@@ -55,6 +55,14 @@ cd examples/c
 make
 ./properties
 ```
+Las imagenes que se capturen se guardan en ficheros(.jpg) en el path: /tmp
+Para ello:
+```
+sudo su
+cd /tmp
+ls -l
+display image-xxxxxx.jpg
+```
 
 ### Para mayor información
 
