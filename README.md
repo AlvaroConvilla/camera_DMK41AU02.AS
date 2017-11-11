@@ -44,7 +44,7 @@ sudo make install
 ```
 ### Para que el sistema operativo detecte la cámara:
 ```
-cd tiscamera
+cd camera_DMK41AU02.AS
 sudo cp data/udev/80-theimagingsource-cameras.rules /etc/udev/rules.d/
 sudo service udev restart
 ```
